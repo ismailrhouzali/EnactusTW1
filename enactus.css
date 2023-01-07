@@ -1,0 +1,391 @@
+:root {
+  --primaryColor: #fcc430;
+  --secondaryColor: #041040;
+  --secondaryColor: #2c293c;
+  --secondaryColor: #515356;
+  --secondaryColor: #3e3a53;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "source sans pro ", sans-serif;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  /*background-color: #041040;*/
+  display: flex;
+  flex-direction: column;
+}
+
+/* selection 1*/
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: #041040;
+}
+.c1 {
+  height: 10%;
+  width: 10%;
+  cursor: pointer;
+}
+nav {
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #515356, 30%;
+}
+nav ul li {
+  display: inline-block;
+  float: right;
+  margin: 2.5%;
+  font-weight: bold;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+nav ul li a:hover {
+  color: #fcc430;
+}
+.joinus {
+  background-color: transparent;
+  color: white;
+  width: 12%;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 10px 10px;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  transition: 0, 4s;
+  border: 2px solid #fcc430;
+}
+.joinus:hover {
+  background-color: #fcc430;
+  color: #041040;
+  border: 2px solid #fcc430;
+}
+.content {
+  flex-grow: 1;
+  padding: 5%;
+}
+.content_text {
+  color: white;
+  font-size: 50px;
+}
+.par1 {
+  color: white;
+  font-size: large;
+  width: 30%;
+  margin-top: 0.1px;
+}
+.video1 {
+  float: right;
+  display: flex;
+  align-items: right;
+  position: relative;
+  width: 560 px;
+  height: 315px;
+  z-index: 2;
+}
+.pic1 {
+  height: 70%;
+  top: 20%;
+  position: absolute;
+  float: right;
+  right: 15%;
+}
+
+.statistique {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.statistique .img_asset {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.chiff {
+  color: #041040;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.t {
+  color: #142051;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.equipes,
+.student,
+.time,
+.bf {
+  z-index: 10;
+  text-align: center;
+}
+
+/* selection 2*/
+#about {
+  width: 100%;
+  height: 100vh;
+  background-image: url("pic/Asset 2.png");
+  font-family: gilroy, sans-serif;
+}
+.pabout {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: #041040;
+}
+.bureau {
+  font-weight: 800;
+  font-size: x-large;
+  background-color: #3e3a53;
+  width: 100%;
+  height: 50px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+.all {
+  display: flex;
+  position: relative;
+  text-align: center;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.ptl {
+  font-weight: 700;
+}
+span {
+  font-weight: 400;
+}
+#bpic {
+  width: 100px;
+  height: 100px;
+  border: #fcc430 solid 2px;
+  border-radius: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.chefs {
+  font-family: gilroy, sans-serif;
+  font-weight: 800;
+  font-size: x-large;
+  background-color: #3e3a53;
+  width: 100%;
+  height: 50px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* selection 3*/
+#prjandevt {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url("pic/Asset 2.png");
+  font-family: gilroy, sans-serif;
+}
+/*project*/
+.prjt {
+  background-color: #3e3a53;
+  color: white;
+  width: 757px;
+  height: 50px;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+.alll {
+  display: flex;
+}
+.prj {
+  float: left;
+}
+.picc {
+  width: 13%;
+  height: 13%;
+  padding-left: 5%;
+  margin-bottom: 20px;
+}
+.text {
+  width: 61%;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.size {
+  font-weight: 900;
+}
+/*events*/
+.evtt {
+  background-color: #3e3a53;
+  color: white;
+  width: 757px;
+  height: 50px;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  position: relative;
+  border-left: 5px solid #fcc430 outset;
+  padding-top: 10px;
+  float: right;
+}
+.evnts {
+  padding-top: 120px;
+  justify-content: center;
+}
+.alllevt {
+  position: relative;
+  display: flex;
+}
+.textevt {
+  width: 61%;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+/* selection 4*/
+.socialmedia {
+  width: 100%;
+  height: 100vh;
+  background-image: url("pic/Asset 2.png");
+  font-family: gilroy, sans-serif;
+}
+.insta {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 800;
+  color: #3e3a53;
+}
+.postsinsta {
+  margin-top: 20px;
+  width: 570px;
+  height: 570px;
+  border: #041040 2px solid;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* selection 5*/
+#contactus {
+  width: 100%;
+  height: 100vh;
+  background-image: url("pic/Asset 2.png");
+  font-family: gilroy, sans-serif;
+}
+.divc {
+  margin-left: 50%;
+  margin-top: 8%;
+  line-height: 30px;
+}
+.fooorm {
+  margin-left: 50%;
+  margin-top: -2%;
+  line-height: 30px;
+}
+.borders {
+  border: #041040 solid 1px;
+  border-radius: 5px;
+  width: 680px;
+  height: 30px;
+}
+.borderss {
+  border: #041040 solid 1px;
+  border-radius: 5px;
+  resize: none;
+}
+.imgcolors {
+  position: absolute;
+  left: -250px;
+  margin-top: -200px;
+  z-index: 4;
+}
+.x {
+  position: absolute;
+  font-size: 100px;
+  font-weight: 900;
+  font-family: gilroy, sans-serif;
+  margin-top: 300px;
+  padding-left: 5%;
+  z-index: 5;
+}
+form p {
+  color: #d10a18;
+  font-family: gilroy, sans-serif;
+}
+
+/*FIIIIN*/
+.fin {
+  width: 100%;
+  height: 150px;
+  background-color: #041040;
+  display: flex;
+}
+.nom {
+  margin-top: 1%;
+  margin-left: 20px;
+  color: white;
+}
+.me {
+  padding-left: 5%;
+  height: 90%;
+  padding-top: 2px;
+}
+.R {
+  padding-top: 15px;
+}
+.btn {
+  margin-top: 1%;
+  margin-left: 20px;
+  color: #041040;
+  background-color: #fcc430;
+  width: 120px;
+  font-size: medium;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.bureau {
+    margin-top: -5px;
+}
